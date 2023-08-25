@@ -31,7 +31,7 @@ Gazebo 시뮬레이션에서 사용되는 월드, 로봇 모델을 수정해서 
 4. **TURTLEBOT3_MODEL** 환경변수를 **waffle_mk0**로 선언해야 합니다.
     
     ```xml
-    $ echo TURTLEBOT3_MODEL=waffle_mk0
+    $ export TURTLEBOT3_MODEL=waffle_mk0
     ```
     
 5. 이제 `mk_0_gazebo` 패키지를 사용할 수 있습니다.
