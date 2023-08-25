@@ -12,7 +12,7 @@ Gazebo 시뮬레이션에서 사용되는 월드, 로봇 모델을 수정해서 
     
     ```bash
     $ cd <workspace>/src
-    $ git clone <https://github.com/kodogyu/mk_0.git>
+    $ git clone <https://github.com/kodogyu/mk_0_gazebo.git>
     ```
     
 2. `<워크스페이스>`에서 빌드.
