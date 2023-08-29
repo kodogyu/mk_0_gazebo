@@ -15,6 +15,12 @@ Gazebo 시뮬레이션에서 사용되는 월드, 로봇 모델을 수정해서 
     $ git clone <https://github.com/kodogyu/mk_0_gazebo.git>
     ```
     
+2. `sohwagi` 모델을 이동
+
+    ```bash
+    $ cp -r src/mk_0_gazebo_models/sohwagi ~/.gazebo/models
+    ```
+
 2. `<워크스페이스>`에서 빌드.
     
     ```bash
