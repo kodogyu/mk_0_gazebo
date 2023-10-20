@@ -31,7 +31,6 @@ TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 def generate_launch_description():
     print("This launch file is executed from the 'mk_0_gazebo' package")
     pkg_dir = get_package_share_directory('mk_0_gazebo')
-    os.environ["GAZEBO_MODEL_PATH"] = os.path.join(pkg_dir, 'models')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='True')
     world_file_name = 'empty_worlds/' + TURTLEBOT3_MODEL + '.model'
