@@ -49,7 +49,11 @@ Gazebo 시뮬레이션에서 사용되는 월드, 로봇 모델을 수정해서 
 
 ### 기본 월드 파일
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8d67700-497f-49e0-9d14-067745b9d99a/Untitled.png)
+hyper_world
+![default_hyper_world](images/default_hyper_world.png)
+
+empty_world
+![default_empty_world](images/default_empty_world.png)
 
 ### 월드 파일 수정
 
@@ -61,3 +65,8 @@ Gazebo 시뮬레이션에서 사용되는 월드, 로봇 모델을 수정해서 
 - `mk_0_gazebo/urdf/turtlebot3_waffle_mk0.urdf`
 
 두 개의 파일을 수정합니다.
+
+### 구동
+[mk_0](https://github.com/kodogyu/mk_0) 패키지를 통해 소화기를 추적해 따라가는 기능을 구동할 수 있습니다.
+
+![mk_0 demo](images/mk_0%20demo.gif)
